@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 LABEL maintainer Late Lee(li@latelee.org)
 
 # version here
-ENV K8S_VERSION 1.11.2
+ENV K8S_VERSION v1.11.2
 
 RUN apt-get update || true && \
     apt-get install -y \
