@@ -5,8 +5,8 @@ LABEL maintainer Late Lee(li@latelee.org)
 # version here
 ENV K8S_VERSION v1.11.3
 
-ETCD_VERSION v3.3.9
-FLANNEL_VERSION v0.10.0
+ENV ETCD_VERSION v3.3.9
+ENV FLANNEL_VERSION v0.10.0
 
 RUN apt-get update || true && \
     apt-get install -y \
