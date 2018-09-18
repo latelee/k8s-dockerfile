@@ -5,6 +5,9 @@ kubernetes-server-linux-amd64.tar.gz
 kubernetes-client-linux-amd64.tar.gz
 kubernetes-node-linux-arm64.tar.gz
 
+etcd: v3.3.9
+flannel: v0.10.0
+
 usage:
 docker pull latelee/k8s:tag
 
