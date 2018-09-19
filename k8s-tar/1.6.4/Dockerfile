@@ -3,10 +3,10 @@ FROM ubuntu:16.04
 LABEL maintainer Late Lee(li@latelee.org)
 
 # version here
-ENV K8S_VERSION v1.11.3
+ENV K8S_VERSION v1.6.4
 
-ENV ETCD_VERSION v3.3.9
-ENV FLANNEL_VERSION v0.10.0
+ENV ETCD_VERSION v3.2.9
+ENV FLANNEL_VERSION v0.9.0
 
 RUN apt-get update || true && \
     apt-get install -y \

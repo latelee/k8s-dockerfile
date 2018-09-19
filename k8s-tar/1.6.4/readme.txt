@@ -1,9 +1,12 @@
-k8s tar files,v1.11.2
+k8s tar files,v1.6.4
 
 files:
 kubernetes-server-linux-amd64.tar.gz
 kubernetes-client-linux-amd64.tar.gz
 kubernetes-node-linux-arm64.tar.gz
+
+etcd: v3.2.9
+flannel: v0.9.0
 
 usage:
 docker pull latelee/k8s:tag
